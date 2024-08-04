@@ -21,7 +21,7 @@ export default function Hero() {
             className="relative px-4 py-1 bg-white dark:bg-black border border-emerald-500 rounded-full inline-flex items-center space-x-2 text-emerald-600 dark:text-emerald-400 hover:text-emerald-700 dark:hover:text-emerald-300 transition-all duration-200"
           >
             <span className="text-sm font-medium">
-              Introducing Portfolio Templates
+              Introducing the SoloFoundersHub community!
             </span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +43,7 @@ export default function Hero() {
         <h1 className="text-pretty text-neutral-900 dark:text-white lg:text-6xl lg:-tracking-4 lg:leading-[4rem] lg:font-extrabold text-4xl md:text-5xl -tracking-3 font-bold max-w-3xl text-center">
           Discover{' '}
           <span className="relative inline-block">
-            portfolios
+          secrets
             <svg
               className="absolute -bottom-1 w-full h-3 left-0"
               viewBox="0 0 200 9"
@@ -71,17 +71,17 @@ export default function Hero() {
               </defs>
             </svg>
           </span>{' '}
-          to inspire your creativity
+          to 7-figure online businesses
         </h1>
       </div>
       <p className="text-neutral-700 dark:text-neutral-300 mx-auto block text-balance max-w-sm text-center text-base md:max-w-3xl md:text-lg xl:text-xl">
-        Browse our curated collection of{' '}
+      Dive into our database of{' '}
         {numberOfPortfolios && (
           <span className="text-foreground font-semibold">
             {numberOfPortfolios}+
           </span>
         )}{' '}
-        exceptional designs to help you create your best portfolio yet.
+        case studies & join our community of thousands of successful founders.
       </p>
     </>
   );
